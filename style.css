@@ -72,6 +72,14 @@ main .quote{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.portfolio-sub img {
+.portfolio-img {
     height: 200px;
+}
+
+.portfolio-title{
+    text-align: center;
+}
+
+.portfolio-sub{
+    margin 20px: ;
 }
