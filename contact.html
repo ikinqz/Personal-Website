@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" href="style.css">
+    <script defer src="javascript.js"></script>
 </head>
 
 <body>
@@ -20,17 +21,29 @@
 
         </nav>
     </header>
+    <main class="contact">
+        <form id="form">
+            <h2>Contact</h2>
+                <label for="name">Name</label>
+                <input type="text" id="name" ></input>
+                <label for="email">Email</label>
+                <input type="text" id="Email" name="Email"></input>
+                <label for="message">Message</label>
+                <textarea type="text" id="message" rows="6" cols="62"></textarea>
+                <div>
+                    <button type="submit" id="submit">submit</button>  
+            
+                </div>
+                  
+            
+           
+        </form>
+    
+    </main>
 
-    <form id="form">
-        <h2>Contact</h2>
-        <label for="name">Name</label>
-        <imput type="text" id="name" name="name">
-        <button type="submit" id="submit">submit</button>
-        <label for="email">email</label>
-        <imput type="text" id="email" name="email"></imput>
-        <button type="submit" id="submit">submit</button>  
-    </form>
-    <script src="javascript.js"></script>
+    
+
+   
 
 
     
